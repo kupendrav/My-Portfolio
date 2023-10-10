@@ -7,9 +7,14 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="script.js" defer></script>
+
   </head>
   <body>
-    <nav id="desktop-nav">
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+    <nav class="navbar" id="desktop-nav">
       <div class="logo">Kupendra</div>
       <div>
         <ul class="nav-links">
@@ -20,7 +25,7 @@
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
+    <nav class="navbar" id="hamburger-nav">
       <div class="logo">Kupendra</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
@@ -36,6 +41,7 @@
         </div>
       </div>
     </nav>
+    
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/kk.png" alt="kupendra profile picture" />
@@ -75,7 +81,7 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
+        <div class="section__pic-container2">
           <img
             src="./assets/IMG_6132.JPG"
             alt="Profile picture"
@@ -105,12 +111,7 @@
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Kupendra is a versatile developer with expertise in full-stack web development and Android app development. With a strong skill set in both front-end and back-end web technologies, Kupendra is well-equipped to create dynamic and interactive websites. Additionally, their proficiency in Android development allows them to design and build mobile applications for the Android platform. Kupendra's combination of skills in web and mobile development makes them a valuable asset in the world of software development, capable of bringing digital ideas to life across different platforms.
             </p>
           </div>
         </div>
@@ -310,6 +311,8 @@
               </button>
             </div>
           </div>
+        </div>
+      </div>
           <!-- <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -365,6 +368,8 @@
         </div>
       </div>
     </section>
+    
+  
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -378,6 +383,5 @@
       </nav>
       <p>Copyright &#169; 2023 kupendra. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
