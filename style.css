@@ -171,8 +171,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+ width: 50vw;
+ height: 50vh;
   margin: auto 0;
 }
 
@@ -187,6 +187,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  /* margin-bottom: 100px; */
 }
 
 .section__text__p2 {
@@ -197,6 +198,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  /* margin-bottom: 99px; */
 }
 
 #socials-container {
@@ -283,14 +285,17 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  flex-wrap: wrap;
+  
 }
 
-.about-pic {
+/* .about-pic {
   border-radius: 3rem;
   width: 500px;
   height: 350px;
+  border-radius: 100px;
  
-}
+} */
 
 .arrow {
   position: absolute;
@@ -306,8 +311,12 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin-top: 0px;
 }
-
+.details-container:hover{
+  background-color: black;
+  color: white;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -322,6 +331,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  /* border-radius: 55px black; */
 }
 
 /* EXPERIENCE SECTION */
@@ -341,6 +351,9 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* margin: 0px 0px 0px; */
+  /* height: 600px; */
+  /* width: 3re; */
 }
 
 .article-container {
@@ -350,7 +363,11 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
 
 article {
   display: flex;
@@ -362,7 +379,10 @@ article {
 article .icon {
   cursor: default;
 }
-
+.details-container{
+  margin-top: 0px;
+ 
+}
 /* PROJECTS SECTION */
 
 #projects {
@@ -372,12 +392,17 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 400px;
+  height: 250px;
 }
 
 .project-title {
@@ -397,6 +422,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 100px;
 }
 
 .contact-info-upper-container {
@@ -439,4 +465,15 @@ footer {
 
 footer p {
   text-align: center;
+}
+.navbar{
+  height: 100px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 40px;
+}
+
+.text-container{
+  text-align: center;
+  justify-items: center;
 }

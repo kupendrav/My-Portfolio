@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 80vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -100,5 +100,30 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .section__pic-container {
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-right: 250px;
+}
+}
+
+@media screen and (max-width: 500px)  {
+ .section__pic-container {
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-right: 250px;
+
+  }
+  #profile{
+    display: block;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  #section__text__p1{
+    margin-top: 10px;
   }
 }
