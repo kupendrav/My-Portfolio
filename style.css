@@ -477,3 +477,7 @@ footer p {
   text-align: center;
   justify-items: center;
 }
+
+::-webkit-scrollbar{
+  display: none;
+}
