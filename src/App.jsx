@@ -7,7 +7,7 @@ import TypedText from './components/typingtext/typedtext'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 function App() {
-
+    console.log(import.meta.env.VITE_APPWRITE_URL);
   return (
     
        <div className="App">
