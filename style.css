@@ -1,0 +1,37 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'kaisei opti',sans-serif;
+  user-select: none;
+}
+
+body{
+  background-color:beige;
+  color: darkgrey;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.kaisei-opti-regular {
+  font-family: "Kaisei Opti", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kaisei-opti-medium {
+  font-family: "Kaisei Opti", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kaisei-opti-bold {
+  font-family: "Kaisei Opti", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+::-webkit-scrollbar {
+  display: none;
+}
