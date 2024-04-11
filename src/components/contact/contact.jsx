@@ -30,10 +30,10 @@ const Contact = () => {
 Driven by innovation, delivering results that exceed expectations.
       </p>
       <div className='clientImgs'>
-        <img src='../../../public/ps.png' alt='' className='clientImg'/>
-        <img src='../../../public/google.png' alt='' className='clientImg'/>
-        <img src='../../../public/micro.png' alt='' className='clientImg'/>
-        <img src='../../../public/adobe.png' alt='' className='clientImg'/>
+        <img src='/ps.png' alt='' className='clientImg'/>
+        <img src='/public/google.png' alt='' className='clientImg'/>
+        <img src='/micro.png' alt='' className='clientImg'/>
+        <img src='/adobe.png' alt='' className='clientImg'/>
       </div>
     </div>
     <div id='contact'>
@@ -48,8 +48,8 @@ Driven by innovation, delivering results that exceed expectations.
     </form>
     <div className='links'>
     <a href='https://www.linkedin.com/in/kupendra-v2903/'><img src='../../../public/li2.png' className='link'/></a>
-    <a href='https://github.com/kupendrav'><img src='../../../public/gi.png' className='link'/></a>  
-    <a href='https://twitter.com/kupendrav99'><img src='../../../public/ti.png' className='link'/></a>  
+    <a href='https://github.com/kupendrav'><img src='/gi.png' className='link'/></a>  
+    <a href='https://twitter.com/kupendrav99'><img src='/ti.png' className='link'/></a>  
       
     </div>
     </div>
