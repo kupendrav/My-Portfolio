@@ -31,7 +31,7 @@ Driven by innovation, delivering results that exceed expectations.
       </p>
       <div className='clientImgs'>
         <img src='/ps.png' alt='' className='clientImg'/>
-        <img src='/public/google.png' alt='' className='clientImg'/>
+        <img src='/google.png' alt='' className='clientImg'/>
         <img src='/micro.png' alt='' className='clientImg'/>
         <img src='/adobe.png' alt='' className='clientImg'/>
       </div>
