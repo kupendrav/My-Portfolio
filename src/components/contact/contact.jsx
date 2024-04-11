@@ -1,6 +1,10 @@
 import React, { useRef } from 'react'
 import './contact.css';
 import emailjs from '@emailjs/browser';
+import google from '../../../public/Google.png';
+import adobe from '../../../public/adobe.png';
+import ps from '../../../public/ps.png';
+import mi from '../../../public/micro.png';
 
 
 const Contact = () => {
@@ -30,10 +34,10 @@ const Contact = () => {
 Driven by innovation, delivering results that exceed expectations.
       </p>
       <div className='clientImgs'>
-        <img src='/ps.png' alt='' className='clientImg'/>
-        <img src='/google.png' alt='' className='clientImg'/>
-        <img src='/micro.png' alt='' className='clientImg'/>
-        <img src='/adobe.png' alt='' className='clientImg'/>
+        <img src={ps} alt='' className='clientImg'/>
+        <img src={google} alt='' className='clientImg'/>
+        <img src={mi} alt='' className='clientImg'/>
+        <img src={adobe} alt='' className='clientImg'/>
       </div>
     </div>
     <div id='contact'>
