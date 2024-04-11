@@ -5,6 +5,9 @@ import google from '../../../public/Google.png';
 import adobe from '../../../public/adobe.png';
 import ps from '../../../public/ps.png';
 import mi from '../../../public/micro.png';
+import lin from '../../../public/li2.png';
+import git from '../../../public/gi.png';
+import x from '../../../public/ti.png';
 
 
 const Contact = () => {
@@ -51,9 +54,9 @@ Driven by innovation, delivering results that exceed expectations.
      
     </form>
     <div className='links'>
-    <a href='https://www.linkedin.com/in/kupendra-v2903/'><img src='../../../public/li2.png' className='link'/></a>
-    <a href='https://github.com/kupendrav'><img src='/gi.png' className='link'/></a>  
-    <a href='https://twitter.com/kupendrav99'><img src='/ti.png' className='link'/></a>  
+    <a href='https://www.linkedin.com/in/kupendra-v2903/'><img src={lin} className='link'/></a>
+    <a href='https://github.com/kupendrav'><img src={git} className='link'/></a>  
+    <a href='https://twitter.com/kupendrav99'><img src={x} className='link'/></a>  
       
     </div>
     </div>
