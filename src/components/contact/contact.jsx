@@ -38,9 +38,10 @@ Driven by innovation, delivering results that exceed expectations.
       </p>
       <div className='clientImgs'>
         <img src={ps} alt='' className='clientImg'/>
-        <img src={google} alt='' className='clientImg'/>
+        {/*<img src={google} alt='' className='clientImg'/>
         <img src={mi} alt='' className='clientImg'/>
-        <img src={adobe} alt='' className='clientImg'/>
+  <img src={adobe} alt='' className='clientImg'/>*/}
+  
       </div>
     </div>
     <div id='contact'>
@@ -55,7 +56,7 @@ Driven by innovation, delivering results that exceed expectations.
     </form>
     <div className='links'>
     <a href='https://www.linkedin.com/in/kupendra-v2903/'><img src={lin} className='link'/></a>
-    <a href='https://github.com/kupendrav'><img src={git} className='link'/></a>  
+     <a href='https://github.com/kupendrav'><img src={git} className='link'/></a> 
     <a href='https://twitter.com/kupendrav99'><img src={x} className='link'/></a>  
       
     </div>
